@@ -10,14 +10,14 @@ categoriesElements.forEach((el) => {
 	console.log("Elements", categoryTypesLenght);
 });
 
-// const list = document.querySelectorAll("#categories");
-// const listChildrenCount = list.children.length;
+const list = document.querySelectorAll("#categories");
+const listChildrenCount = list.children.length;
 
-// console.log(`Number of categories:', ${listChildrenCount}`);
+console.log(`Number of categories:', ${listChildrenCount}`);
 
-// const listItems = document.querySelectorAll(".item");
+const listItems = document.querySelectorAll(".item");
 
-// listItems.forEach((listItem) => {
-// 	console.log(`Category: ${listItem.firstElementChild.textContent}`);
-// 	console.log(`Elements: ${listItem.lastElementChild.childElementCount}`);
-// });
+listItems.forEach((listItem) => {
+	console.log(`Category: ${listItem.firstElementChild.textContent}`);
+	console.log(`Elements: ${listItem.lastElementChild.childElementCount}`);
+});
